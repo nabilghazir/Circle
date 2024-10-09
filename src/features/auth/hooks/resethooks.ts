@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { resetPassData } from "../types/auth";
+import { resetPassData } from "../types/login-dto";
 
 export function resetHooks() {
   const [formData, setFormData] = useState<resetPassData>({

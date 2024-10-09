@@ -1,4 +1,4 @@
-import { forgotData } from "../types/auth";
+import { forgotData } from "../types/login-dto";
 import { useState } from "react";
 
 export function forgotHooks() {
