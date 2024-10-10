@@ -6,7 +6,7 @@ import { CreateRepliesFormInput, RepliesSchema } from "../../../schemas/replies-
 import { CreateRepliesDTO } from "../types/replies";
 import { useParams } from "react-router-dom";
 import Cookies from "js-cookie";
-import { UseAllReplies } from "./all-post";
+import { useAllReplies } from "./all-post";
 
 export function useRepliesForm() {
     const {
@@ -29,7 +29,7 @@ export function useRepliesForm() {
             }
         });
 
-        UseAllReplies();
+        useAllReplies();
         queryClient.invalidateQueries({
             queryKey: ["replies-post", postID]
         });

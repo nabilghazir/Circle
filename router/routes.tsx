@@ -8,7 +8,6 @@ import { SearchUserPage } from "../src/pages/app/search-page";
 import { ProfilePage } from "../src/pages/app/profile-page";
 import { MyProfilePage } from "../src/pages/app/my-profile";
 import { HomePost } from "../src/features/content/slicing/home-post";
-import { AuthLayout } from "./routes-auth"
 
 
 export function Routes() {
@@ -60,4 +59,3 @@ export function Routes() {
 
     return <RouterProvider router={router} />
 }
-

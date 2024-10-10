@@ -2,9 +2,6 @@ import { Flex, Avatar, Text } from "@chakra-ui/react";
 import { BiMessageDetail } from "react-icons/bi";
 import { FaCircle, FaRegHeart } from "react-icons/fa";
 import { theme } from "../../../../theme/theme"
-import { useParams } from "react-router-dom";
-import { UsePostDetail } from "../../hooks/status";
-import { format } from 'date-fns';
 import { useAllPost } from "../../hooks/all-post";
 
 
